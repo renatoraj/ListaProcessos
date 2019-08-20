@@ -16,7 +16,7 @@ $(document).ready(function() {
 			  }});
 		})
 	}
-	buttonSend.value="Carregar lista"
+	buttonSend.textContent="Carregar lista";
 	$("body div:first").append(buttonSend);
 	$("body div:first").append("</br><section id='htmlNovo'></section");	
 });
